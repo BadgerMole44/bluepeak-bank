@@ -12,6 +12,7 @@ const refreshCookieOptions = {
   secure: process.env.NODE_ENV === "production",
   sameSite: "none",
   maxAge: 5 * 60 * 1000, // 5 mins
+   path: '/',
 };
 
 
